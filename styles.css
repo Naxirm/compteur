@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -23,6 +27,7 @@ h1 {
   text-transform: capitalize;
   font-weight: lighter;
   color: rgb(65, 58, 58);
+  margin-bottom: 0px;
 }
 
 button {
@@ -41,4 +46,5 @@ button:hover {
   border: 2px solid black;
   color: black;
   background-color: rgba(255, 255, 255, 0.344);
+  cursor: pointer;
 }
