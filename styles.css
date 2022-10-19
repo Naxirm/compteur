@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: fantasy;
+  background-image: url("https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: calc(100vh - 3rem);
+}
+
+#value {
+  font-size: 10rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: rgb(65, 58, 58);
+}
+
+button {
+  width: 150px;
+  height: 75px;
+  background-color: rgba(255, 255, 255, 0.855);
+  border-radius: 5px;
+  font-size: 2rem;
+  color: rgb(72, 65, 65);
+  border: 2px solid rgb(65, 58, 58);
+  margin: 10px;
+}
+
+button:hover {
+  transition: ease 0.3s all;
+  border: 2px solid black;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.344);
+}
